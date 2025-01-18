@@ -1,0 +1,142 @@
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #7b2ff7, #f107a3);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+}
+
+.wrapper {
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 90%;
+    padding: 30px;
+    text-align: center;
+    color: #333;
+    
+}
+
+.wrapper h1 {
+    font-size: 2.5rem;
+    color: #7b2ff7;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.wrapper p {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    color: #666;
+}
+
+hr {
+    border-top: 2px solid #7b2ff7;
+}
+
+.messages .message {
+    margin-bottom: 10px;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 1rem;
+    text-align: left;
+}
+
+/* Button Styles */
+.btn {
+    padding: 15px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background: linear-gradient(135deg, #7b2ff7, #f107a3);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: background 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+    background: linear-gradient(135deg, #f107a3, #7b2ff7);
+    transform: translateY(-3px);
+}
+
+.btn:active {
+    transform: translateY(1px);
+}
+
+/* Form Styles */
+input[type="file"], select.form-select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    background: #f9f9f9;
+    transition: border-color 0.3s;
+}
+
+input[type="file"]:focus, select.form-select:focus {
+    border-color: #7b2ff7;
+    background: #fff;
+}
+
+/* Video Preview Styles */
+.video-preview, #translated-video-preview {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+video {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+section#translated-video-preview {
+    margin-top: 40px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .wrapper {
+        padding: 20px;
+        max-width: 90%;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .message {
+        font-size: 0.9rem;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 12px;
+    }
+}
+
+/* Hover and Animation Effects */
+.wrapper:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.15);
+}
