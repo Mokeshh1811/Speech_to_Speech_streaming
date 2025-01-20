@@ -110,6 +110,6 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Contact
 
 For questions or feedback, feel free to reach out:
-- **Email:** your-email@example.com
-- **GitHub Issues:** [Open an issue](https://github.com/your-username/speech-to-speech-streaming/issues)
+- **Email:** your-mokesh1811@gmail.com
+- **GitHub Issues:** [Open an issue]([https://github.com/your-username/speech-to-speech-streaming/issues](https://github.com/Mokeshh1811/Speech_to_Speech_streaming)
 
